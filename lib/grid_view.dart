@@ -7,13 +7,13 @@ class GridViewDemo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Grid View Builder"),
+        title: const Text("Grid View Builder"),
       ),
       body: GridView.builder(
-          gridDelegate:
-              SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2 ),
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 4),
           itemBuilder: (context, i) {
-            return FlutterLogo();
+            return const FlutterLogo();
           }),
     );
   }
