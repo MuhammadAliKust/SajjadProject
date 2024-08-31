@@ -1,4 +1,5 @@
 import 'package:demo_app/bottom_bar_view.dart';
+import 'package:demo_app/calculator_view.dart';
 import 'package:demo_app/dialog_box_demo.dart';
 import 'package:demo_app/grid_view.dart';
 import 'package:demo_app/image_demo.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GridViewDemo(),
+      home: CalculatorView(),
     );
   }
 }
